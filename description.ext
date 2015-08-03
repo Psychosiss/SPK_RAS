@@ -1,0 +1,39 @@
+//if _rasStyle = false
+class CfgSounds {
+	sounds[] = {};
+	class track1 {
+        name = "track1";
+        sound[] = {"sounds\track1.ogg", 1.0, 1};
+        titles[] = {};
+    };
+    class track2 {
+        name = "track2";
+        sound[] = {"sounds\track2.ogg", 1.0, 1};
+        titles[] = {};
+    };
+    class track3 {
+        name = "track3";
+        sound[] = {"sounds\track3.ogg", 1.0, 1};
+        titles[] = {};
+    };
+};
+
+//if _rasStyle = true
+class CfgMusic {
+	tracks[]={};
+	class track1 {
+        name = "track1";
+        sound[] = {"sounds\track1.ogg", 1.0, 1};
+        titles[] = {};
+    };
+    class track2 {
+        name = "track2";
+        sound[] = {"sounds\track2.ogg", 1.0, 1};
+        titles[] = {};
+    };
+    class track3 {
+        name = "track3";
+        sound[] = {"sounds\track3.ogg", 1.0, 1};
+        titles[] = {};
+    };
+};
